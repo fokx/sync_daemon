@@ -1,0 +1,4 @@
+curl -i -X POST -H 'Content-Type: application/json' -d '{"data":{"type":"artist", "attributes":{"name":"Salvador Dali", "birth_year":1904, "genre":"Surrealism"}}}' http://localhost:5000/artists
+
+
+http://localhost:5000/artists?name=Salvador Dali&birth_year=1904&genre=Surrealism
